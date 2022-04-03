@@ -1,0 +1,13 @@
+@import "@fontsource/inter/variable-full.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.clickable {
+	@apply transition hover:scale-105 active:scale-95 active:rotate-6 odd:active:-rotate-6
+}
+
+html {
+	@apply bg-gradient-to-br from-slate-50 via-slate-100 to-slate-400;
+}
