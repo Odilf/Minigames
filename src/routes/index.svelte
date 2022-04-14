@@ -2,6 +2,7 @@
 	let minigames = [
 		{ name: 'Last line stands', url: '/last-line-stands'},
 		{ name: 'Minesweeper', url: '/minesweeper'},
+		{ name: 'Octogon', url: '/octogon'},
 	]
 </script>
 
